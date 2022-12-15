@@ -3,7 +3,7 @@ terraform {
   backend "s3" {
     region  = "us-east-1"
     profile = "default"
-    key     = "XXXX"
-    bucket  = "cicdterraform1101"
+    key     = "app_ale"
+    bucket  = "terraform-almansi"
   }
 }
